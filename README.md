@@ -1,4 +1,12 @@
 # OOP2_TugasKelompok
 NIM : 18090015
-NAMA: MAFTUCHATI
+<br>
+NAMA : MAFTUCHATI
+<br>
+KELAS : 5B
+<br><br>
+NIM : 19092001
+<br>
+NAMA : IGHFAR NAZAR S
+<br>
 KELAS : 5B
