@@ -1,1 +1,4 @@
 # OOP2_TugasKelompok
+NIM : 18090015
+NAMA : MAFTUCHATI
+KELAS : 5B
