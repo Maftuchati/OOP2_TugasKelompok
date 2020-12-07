@@ -7,6 +7,7 @@ import androidx.room.RoomDatabase
 
 @Database(entities = arrayOf(Tanaman::class), version = 1)
 abstract class TanamanRoomDatabase : RoomDatabase() {
+
     abstract fun tanamanDao(): TanamanDao
 
     abstract val applicationContext: Context

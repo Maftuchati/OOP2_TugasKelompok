@@ -7,6 +7,7 @@ import androidx.room.Query
 
 @Dao
 interface TanamanDao {
+
     @Query("SELECT * FROM tanaman")
     fun getAll(): List<Tanaman>
 

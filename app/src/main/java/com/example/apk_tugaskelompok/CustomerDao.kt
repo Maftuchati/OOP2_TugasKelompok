@@ -14,12 +14,12 @@ interface CustomerDao {
     fun loadAllByIds(userIds: IntArray): List<Customer>
 
     @Query("SELECT * FROM customer WHERE nama LIKE :nama AND " +
-            "prodi LIKE :prodi LIMIT 1")
+            "penjua LIKE :penjual LIMIT 1")
     fun findByName(nama: String, penjual: String): Customer
 
     @Insert
-    fun insertAll(vararg customer: Customer)
+    fun insertAll(vararg customer: Customer);
 
     @Delete
-    fun delete(customer: Customer)
+    fun delete(customer: Customer);
 }
